@@ -34,7 +34,7 @@ function App() {
 
   return (
     <main>
-      <div className="topline"><span>KYRGYZSTAN, DISCOVERED DIFFERENTLY</span><span className="topline-right"><i></i> LIVE EVENT UPDATES <b>•</b> <span>EN</span><span className="lang-muted">РУ</span></span></div>
+      <div className="topline"><span>Turkey, DISCOVERED DIFFERENTLY</span><span className="topline-right"><i></i> LIVE EVENT UPDATES <b>•</b> <span>EN</span><span className="lang-muted">РУ</span></span></div>
       <nav className="nav">
         <a className="brand" href="#top" aria-label="Kyrgyzstan live home"><span className="brand-mark">✦</span><span>KYRGYZ<br/><em>STAN</em><strong>LIVE</strong></span></a>
         <div className="nav-links">{['Events', 'Explore', 'Plan your trip', 'Stories'].map(item => <button onClick={() => {setActiveTab(item); notify(`${item} selected`)}} className={activeTab === item ? 'active' : ''} key={item}>{item}</button>)}</div>
